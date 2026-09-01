@@ -2287,7 +2287,8 @@ ul { list-style: none; }
     .jlc-admision-title { 
         font-size: 1.8rem; 
     }
-}/* ========== GENERAL MOBILE STYLES ========== */
+}
+/* ========== GENERAL MOBILE STYLES ========== */
 .mobile-menu-btn {
     display: none;
     background: none;
@@ -2333,29 +2334,32 @@ ul { list-style: none; }
     }
     
     .header-accesos {
-        display: none; /* Ocultamos accesos en mvil por simplicidad o lo movemos al men */
+        display: none;
     }
 
     /* HERO */
     .hero-cta-box {
-        right: 20px;
-        bottom: 50px;
-        left: 20px;
+        bottom: 40px;
+        left: 50%;
+        transform: translateX(-50%);
         text-align: center;
+        width: 85%;
+        max-width: 320px;
+        right: auto;
     }
     
     .cta-red {
-        min-width: 100%;
-        padding: 20px;
+        min-width: auto;
+        padding: 16px 20px;
     }
     
     .cta-red h2 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     
     .cta-white {
-        min-width: 100%;
-        padding: 15px;
+        min-width: auto;
+        padding: 12px 20px;
     }
 
     /* CARRERAS BAR */
@@ -2441,6 +2445,7 @@ ul { list-style: none; }
         top: auto;
     }
 }
+
 /* ========== FOOTER ========== */
 .footer {
     background-color: #1a1a1a;
