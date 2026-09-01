@@ -2339,27 +2339,30 @@ ul { list-style: none; }
 
     /* HERO */
     .hero-cta-box {
-        bottom: 40px;
-        left: 50%;
-        transform: translateX(-50%);
-        text-align: center;
-        width: 85%;
-        max-width: 320px;
-        right: auto;
+        bottom: 70px;
+        right: 16px;
+        left: auto;
+        transform: none;
+        text-align: left;
+        width: 170px;
     }
     
     .cta-red {
         min-width: auto;
-        padding: 16px 20px;
+        padding: 12px 14px;
     }
     
     .cta-red h2 {
-        font-size: 1.3rem;
+        font-size: 0.95rem;
     }
     
     .cta-white {
         min-width: auto;
-        padding: 12px 20px;
+        padding: 10px 14px;
+    }
+    
+    .cta-white p {
+        font-size: 0.75rem;
     }
 
     /* CARRERAS BAR */
